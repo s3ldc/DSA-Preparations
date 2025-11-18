@@ -25,3 +25,19 @@ l1.remove(19)
 l1.sort()
 l1.reverse()
 print(l1)
+print(len(l1))
+print(sum(l1))
+print(max(l1))
+print(min(l1))
+print(sorted(l1))
+
+# Numpy array
+
+import numpy as np
+
+a = np.array([7,29,93])
+print(a)
+
+b = np.array([[37,92,27], [7,29,72]])
+for i in b:
+    print(i)
